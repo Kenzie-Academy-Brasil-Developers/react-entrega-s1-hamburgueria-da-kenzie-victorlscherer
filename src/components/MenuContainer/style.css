@@ -1,0 +1,15 @@
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 786px) {
+  .menuContainer {
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
+}

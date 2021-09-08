@@ -1,0 +1,25 @@
+.productCard {
+  width: 20%;
+  color: black;
+  border: 1px solid rgba(41, 243, 58, 0.644);
+  box-shadow: 2px 2px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(240, 255, 255, 0.692);
+}
+
+.productCard button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.productCard h1 {
+  font-size: 27px;
+}
+
+@media (max-width: 786px) {
+  .productCard {
+    width: 200px;
+  }
+}
